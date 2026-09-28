@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign in — CodeAlpha Store</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛍️</text></svg>">
+</head>
+<body>
+  <header class="site">
+    <div class="bar">
+      <a class="brand" href="/"><span class="mark">🛍️</span> CodeAlpha Store</a>
+      <nav class="main" id="nav"></nav>
+    </div>
+  </header>
+  <main><div class="wrap" style="max-width: 430px">
+    <div class="card pad">
+      <div class="row" style="margin-bottom:18px">
+        <button class="chip on grow" id="tab-login" type="button">Sign in</button>
+        <button class="chip grow" id="tab-register" type="button">Create account</button>
+      </div>
+      <div id="alert"></div>
+      <form id="form" class="stack" autocomplete="on"></form>
+      <p class="small muted center" style="margin-top:18px">
+        Demo account: <strong>demo@codealpha.tech</strong> / <strong>demo1234</strong>
+      </p>
+    </div>
+  </div></main>
+  <footer class="site"><div class="wrap spread">
+    <span>CodeAlpha Task 1 — Simple E-commerce Store</span>
+    <span>Express · SQLite · vanilla JS</span>
+  </div></footer>
+  <script src="/js/api.js"></script>
+  <script src="/js/login.js"></script>
+</body>
+</html>

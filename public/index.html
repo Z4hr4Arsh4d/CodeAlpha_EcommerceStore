@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop — CodeAlpha Store</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛍️</text></svg>">
+</head>
+<body>
+  <header class="site">
+    <div class="bar">
+      <a class="brand" href="/"><span class="mark">🛍️</span> CodeAlpha Store</a>
+      <nav class="main" id="nav"></nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <div class="page-head">
+        <h1>Everything, carefully chosen</h1>
+        <p class="muted">A small catalogue of things worth owning. Sixteen products, real stock levels, working basket.</p>
+      </div>
+
+      <div class="toolbar">
+        <input type="search" id="search" placeholder="Search products…" aria-label="Search products">
+        <select id="sort" aria-label="Sort products">
+          <option value="newest">Newest first</option>
+          <option value="price-asc">Price: low to high</option>
+          <option value="price-desc">Price: high to low</option>
+          <option value="rating">Best rated</option>
+          <option value="name">Name A–Z</option>
+        </select>
+        <span class="muted small grow" id="count"></span>
+      </div>
+
+      <div class="chips" id="chips"></div>
+
+      <div class="grid" id="grid"></div>
+
+      <div class="pagination" id="pagination"></div>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="wrap spread">
+      <span>CodeAlpha Task 1 — Simple E-commerce Store</span>
+      <span>Express · SQLite · vanilla JS</span>
+    </div>
+  </footer>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+</html>
